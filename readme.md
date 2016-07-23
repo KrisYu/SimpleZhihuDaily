@@ -17,3 +17,4 @@
 
 - load界面动画 或者说 activityIndicator
 - NSArray Array化
+- Auto Slide View
