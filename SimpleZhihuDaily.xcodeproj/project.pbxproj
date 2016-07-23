@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C841C2331D43ED7000A88DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841C2321D43ED7000A88DA4 /* AppDelegate.swift */; };
+		C841C23A1D43ED7000A88DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C841C2391D43ED7000A88DA4 /* Assets.xcassets */; };
+		C841C23D1D43ED7000A88DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C841C23B1D43ED7000A88DA4 /* LaunchScreen.storyboard */; };
+		C841C2461D43EE4400A88DA4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841C2441D43EE4400A88DA4 /* HomeViewController.swift */; };
+		C841C2471D43EE4400A88DA4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C841C2451D43EE4400A88DA4 /* HomeViewController.xib */; };
+		C841C2561D43EF0100A88DA4 /* FileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841C2521D43EF0100A88DA4 /* FileUtility.swift */; };
+		C841C2571D43EF0100A88DA4 /* UIImageViewWebExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841C2531D43EF0100A88DA4 /* UIImageViewWebExt.swift */; };
+		C841C2581D43EF0100A88DA4 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841C2541D43EF0100A88DA4 /* UIViewExt.swift */; };
+		C841C2591D43EF0100A88DA4 /* YRHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841C2551D43EF0100A88DA4 /* YRHttpRequest.swift */; };
+		C841C25C1D43EF7C00A88DA4 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841C25A1D43EF7C00A88DA4 /* HomeViewCell.swift */; };
+		C841C25D1D43EF7C00A88DA4 /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C841C25B1D43EF7C00A88DA4 /* HomeViewCell.xib */; };
+		C841C2601D43F03A00A88DA4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841C25E1D43F03A00A88DA4 /* DetailViewController.swift */; };
+		C841C2611D43F03A00A88DA4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C841C25F1D43F03A00A88DA4 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C841C22F1D43ED7000A88DA4 /* SimpleZhihuDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleZhihuDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C841C2321D43ED7000A88DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C841C2391D43ED7000A88DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C841C23C1D43ED7000A88DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C841C23E1D43ED7000A88DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C841C2441D43EE4400A88DA4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = view/HomeViewController.swift; sourceTree = "<group>"; };
+		C841C2451D43EE4400A88DA4 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = view/HomeViewController.xib; sourceTree = "<group>"; };
+		C841C2521D43EF0100A88DA4 /* FileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileUtility.swift; path = util/FileUtility.swift; sourceTree = "<group>"; };
+		C841C2531D43EF0100A88DA4 /* UIImageViewWebExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageViewWebExt.swift; path = util/UIImageViewWebExt.swift; sourceTree = "<group>"; };
+		C841C2541D43EF0100A88DA4 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExt.swift; path = util/UIViewExt.swift; sourceTree = "<group>"; };
+		C841C2551D43EF0100A88DA4 /* YRHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YRHttpRequest.swift; path = util/YRHttpRequest.swift; sourceTree = "<group>"; };
+		C841C25A1D43EF7C00A88DA4 /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewCell.swift; path = view/HomeViewCell.swift; sourceTree = "<group>"; };
+		C841C25B1D43EF7C00A88DA4 /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewCell.xib; path = view/HomeViewCell.xib; sourceTree = "<group>"; };
+		C841C25E1D43F03A00A88DA4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = view/DetailViewController.swift; sourceTree = "<group>"; };
+		C841C25F1D43F03A00A88DA4 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = view/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C841C22C1D43ED7000A88DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C841C2261D43ED7000A88DA4 = {
+			isa = PBXGroup;
+			children = (
+				C841C2311D43ED7000A88DA4 /* SimpleZhihuDaily */,
+				C841C2301D43ED7000A88DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C841C2301D43ED7000A88DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C841C22F1D43ED7000A88DA4 /* SimpleZhihuDaily.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C841C2311D43ED7000A88DA4 /* SimpleZhihuDaily */ = {
+			isa = PBXGroup;
+			children = (
+				C841C2321D43ED7000A88DA4 /* AppDelegate.swift */,
+				C841C2481D43EE4900A88DA4 /* view */,
+				C841C2511D43EEB500A88DA4 /* util */,
+				C841C2391D43ED7000A88DA4 /* Assets.xcassets */,
+				C841C23B1D43ED7000A88DA4 /* LaunchScreen.storyboard */,
+				C841C23E1D43ED7000A88DA4 /* Info.plist */,
+			);
+			path = SimpleZhihuDaily;
+			sourceTree = "<group>";
+		};
+		C841C2481D43EE4900A88DA4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C841C2441D43EE4400A88DA4 /* HomeViewController.swift */,
+				C841C2451D43EE4400A88DA4 /* HomeViewController.xib */,
+				C841C25A1D43EF7C00A88DA4 /* HomeViewCell.swift */,
+				C841C25B1D43EF7C00A88DA4 /* HomeViewCell.xib */,
+				C841C25E1D43F03A00A88DA4 /* DetailViewController.swift */,
+				C841C25F1D43F03A00A88DA4 /* DetailViewController.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		C841C2511D43EEB500A88DA4 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				C841C2521D43EF0100A88DA4 /* FileUtility.swift */,
+				C841C2531D43EF0100A88DA4 /* UIImageViewWebExt.swift */,
+				C841C2541D43EF0100A88DA4 /* UIViewExt.swift */,
+				C841C2551D43EF0100A88DA4 /* YRHttpRequest.swift */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C841C22E1D43ED7000A88DA4 /* SimpleZhihuDaily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C841C2411D43ED7000A88DA4 /* Build configuration list for PBXNativeTarget "SimpleZhihuDaily" */;
+			buildPhases = (
+				C841C22B1D43ED7000A88DA4 /* Sources */,
+				C841C22C1D43ED7000A88DA4 /* Frameworks */,
+				C841C22D1D43ED7000A88DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleZhihuDaily;
+			productName = SimpleZhihuDaily;
+			productReference = C841C22F1D43ED7000A88DA4 /* SimpleZhihuDaily.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C841C2271D43ED7000A88DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XueYu;
+				TargetAttributes = {
+					C841C22E1D43ED7000A88DA4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C841C22A1D43ED7000A88DA4 /* Build configuration list for PBXProject "SimpleZhihuDaily" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C841C2261D43ED7000A88DA4;
+			productRefGroup = C841C2301D43ED7000A88DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C841C22E1D43ED7000A88DA4 /* SimpleZhihuDaily */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C841C22D1D43ED7000A88DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C841C23D1D43ED7000A88DA4 /* LaunchScreen.storyboard in Resources */,
+				C841C25D1D43EF7C00A88DA4 /* HomeViewCell.xib in Resources */,
+				C841C2611D43F03A00A88DA4 /* DetailViewController.xib in Resources */,
+				C841C23A1D43ED7000A88DA4 /* Assets.xcassets in Resources */,
+				C841C2471D43EE4400A88DA4 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C841C22B1D43ED7000A88DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C841C2581D43EF0100A88DA4 /* UIViewExt.swift in Sources */,
+				C841C2331D43ED7000A88DA4 /* AppDelegate.swift in Sources */,
+				C841C25C1D43EF7C00A88DA4 /* HomeViewCell.swift in Sources */,
+				C841C2591D43EF0100A88DA4 /* YRHttpRequest.swift in Sources */,
+				C841C2571D43EF0100A88DA4 /* UIImageViewWebExt.swift in Sources */,
+				C841C2461D43EE4400A88DA4 /* HomeViewController.swift in Sources */,
+				C841C2561D43EF0100A88DA4 /* FileUtility.swift in Sources */,
+				C841C2601D43F03A00A88DA4 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C841C23B1D43ED7000A88DA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C841C23C1D43ED7000A88DA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C841C23F1D43ED7000A88DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C841C2401D43ED7000A88DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C841C2421D43ED7000A88DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleZhihuDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueyu.SimpleZhihuDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C841C2431D43ED7000A88DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleZhihuDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueyu.SimpleZhihuDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C841C22A1D43ED7000A88DA4 /* Build configuration list for PBXProject "SimpleZhihuDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C841C23F1D43ED7000A88DA4 /* Debug */,
+				C841C2401D43ED7000A88DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C841C2411D43ED7000A88DA4 /* Build configuration list for PBXNativeTarget "SimpleZhihuDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C841C2421D43ED7000A88DA4 /* Debug */,
+				C841C2431D43ED7000A88DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C841C2271D43ED7000A88DA4 /* Project object */;
+}
